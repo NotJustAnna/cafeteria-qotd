@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dicebot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      WEBHOOK_URL: ${WEBHOOK_URL}

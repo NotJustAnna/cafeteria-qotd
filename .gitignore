@@ -1,0 +1,23 @@
+/.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+/yarn-error.log
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+!.yarn/cache
+#.pnp.*
+/node_modules/
+/dist/
+/.idea/
+/.vscode/
+/.env
+/config.json
+/public/
+/src/generated/
+/scratches/
+/*.tar
+/qotd/

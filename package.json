@@ -1,0 +1,26 @@
+{
+  "name": "cafeteria-qotd",
+  "license": "MIT",
+  "version": "1.0.0",
+  "dependencies": {
+    "@tokenlab/logger-js": "^1.0.0",
+    "axios": "^1.2.0",
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/cron": "^2.0.0",
+    "@types/node": "^18.11.9",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tsconfig-replace-paths": "^0.0.11",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tsc && tsconfig-replace-paths",
+    "start": "yarn build && node dist/index.js"
+  },
+  "resolutions": {
+    "parse5": "6.0.1"
+  }
+}
