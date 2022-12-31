@@ -12,7 +12,6 @@ RUN yarn install --non-interactive --frozen-lockfile && yarn build && \
     rm -rf src node_modules && yarn install --non-interactive --frozen-lockfile --prod --ignore-optional && \
 # Part 3. Cleanup as much as possible
     # yarn cache clean && yarn cache clean --mirror && rm -rf /root/.cache node_modules/@types
-    rm node_modules/@types
 
 FROM node:16-alpine
 
