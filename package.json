@@ -5,7 +5,7 @@
   "dependencies": {
     "@tokenlab/logger-js": "^1.0.0",
     "axios": "^1.2.0",
-    "cron": "^2.1.0",
+    "cron": "^2.2.0",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
