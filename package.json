@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/cron": "^2.0.0",
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.15.3",
     "csv-parser": "^3.0.0",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
